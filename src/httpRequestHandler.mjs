@@ -1,10 +1,12 @@
 import fs from "node:fs"
 import path from "node:path"
 
-import index_html_code from "includeStaticResource:./client/index.html"
-import index_js_code from "includeStaticResource:../../../dist/runner_master/browser/client/index.mjs"
-import runner_slave_code from "includeStaticResource:../../../dist/runner_slave/index.mjs"
+import {loadResource} from "@vipen/target-js"
 
+const index_html_code = loadResource("text://client.html")
+const index_js_code = loadResource("esmodule://client.mjs")
+
+import runner_slave_code from "@joytest/test-case-runner/source"
 import getMimeType from "@anio-js-foundation/get-mime-type"
 
 export default function(context, request, response) {
