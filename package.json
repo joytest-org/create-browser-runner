@@ -1,6 +1,6 @@
 {
   "name": "@joytest/create-browser-runner",
-  "version": "0.13.0",
+  "version": "1.0.0",
   "description": "Browser implementation of test runner.",
   "author": "Anio Software <info@anio.software>",
   "license": "MIT",
