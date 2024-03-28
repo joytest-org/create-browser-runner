@@ -17,7 +17,7 @@
     "@anio-js-foundation/create-worker": "^1.0.0",
     "@anio-js-foundation/get-mime-type": "^1.0.0",
     "@anio-node-foundation/create-remote-worker": "^2.0.0",
-    "@joytest/test-case-runner": "^1.0.1",
+    "@joytest/test-case-runner": "^1.1.0",
     "@vipen/target-js": "^0.12.0",
     "vipen": "^0.1.0"
   },
